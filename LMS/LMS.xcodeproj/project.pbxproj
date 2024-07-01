@@ -15,51 +15,18 @@
 		986459F72C3297C500E2B590 /* SignInScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986459F62C3297C500E2B590 /* SignInScreenView.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		986459CE2C32962D00E2B590 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 986459B52C32962B00E2B590 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 986459BC2C32962B00E2B590;
-			remoteInfo = LMS;
-		};
-		986459D82C32962D00E2B590 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 986459B52C32962B00E2B590 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 986459BC2C32962B00E2B590;
-			remoteInfo = LMS;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		986459BD2C32962B00E2B590 /* LMS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LMS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		986459C02C32962B00E2B590 /* LMSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMSApp.swift; sourceTree = "<group>"; };
 		986459C22C32962B00E2B590 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		986459C42C32962C00E2B590 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		986459C72C32962C00E2B590 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		986459CD2C32962D00E2B590 /* LMSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LMSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		986459D72C32962D00E2B590 /* LMSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LMSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		986459F42C3297AB00E2B590 /* WelcomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenView.swift; sourceTree = "<group>"; };
 		986459F62C3297C500E2B590 /* SignInScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		986459BA2C32962B00E2B590 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		986459CA2C32962D00E2B590 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		986459D42C32962D00E2B590 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -81,8 +48,6 @@
 			isa = PBXGroup;
 			children = (
 				986459BD2C32962B00E2B590 /* LMS.app */,
-				986459CD2C32962D00E2B590 /* LMSTests.xctest */,
-				986459D72C32962D00E2B590 /* LMSUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -136,42 +101,6 @@
 			productReference = 986459BD2C32962B00E2B590 /* LMS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		986459CC2C32962D00E2B590 /* LMSTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 986459E42C32962D00E2B590 /* Build configuration list for PBXNativeTarget "LMSTests" */;
-			buildPhases = (
-				986459C92C32962D00E2B590 /* Sources */,
-				986459CA2C32962D00E2B590 /* Frameworks */,
-				986459CB2C32962D00E2B590 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				986459CF2C32962D00E2B590 /* PBXTargetDependency */,
-			);
-			name = LMSTests;
-			productName = LMSTests;
-			productReference = 986459CD2C32962D00E2B590 /* LMSTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		986459D62C32962D00E2B590 /* LMSUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 986459E72C32962D00E2B590 /* Build configuration list for PBXNativeTarget "LMSUITests" */;
-			buildPhases = (
-				986459D32C32962D00E2B590 /* Sources */,
-				986459D42C32962D00E2B590 /* Frameworks */,
-				986459D52C32962D00E2B590 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				986459D92C32962D00E2B590 /* PBXTargetDependency */,
-			);
-			name = LMSUITests;
-			productName = LMSUITests;
-			productReference = 986459D72C32962D00E2B590 /* LMSUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -184,14 +113,6 @@
 				TargetAttributes = {
 					986459BC2C32962B00E2B590 = {
 						CreatedOnToolsVersion = 15.4;
-					};
-					986459CC2C32962D00E2B590 = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 986459BC2C32962B00E2B590;
-					};
-					986459D62C32962D00E2B590 = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 986459BC2C32962B00E2B590;
 					};
 				};
 			};
@@ -209,8 +130,6 @@
 			projectRoot = "";
 			targets = (
 				986459BC2C32962B00E2B590 /* LMS */,
-				986459CC2C32962D00E2B590 /* LMSTests */,
-				986459D62C32962D00E2B590 /* LMSUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -222,20 +141,6 @@
 			files = (
 				986459C82C32962C00E2B590 /* Preview Assets.xcassets in Resources */,
 				986459C52C32962C00E2B590 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		986459CB2C32962D00E2B590 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		986459D52C32962D00E2B590 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,34 +158,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		986459C92C32962D00E2B590 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		986459D32C32962D00E2B590 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		986459CF2C32962D00E2B590 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 986459BC2C32962B00E2B590 /* LMS */;
-			targetProxy = 986459CE2C32962D00E2B590 /* PBXContainerItemProxy */;
-		};
-		986459D92C32962D00E2B590 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 986459BC2C32962B00E2B590 /* LMS */;
-			targetProxy = 986459D82C32962D00E2B590 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		986459DF2C32962D00E2B590 /* Debug */ = {
@@ -460,82 +338,6 @@
 			};
 			name = Release;
 		};
-		986459E52C32962D00E2B590 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = KC2S82RY3Y;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = personal.app.LMSTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LMS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LMS";
-			};
-			name = Debug;
-		};
-		986459E62C32962D00E2B590 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = KC2S82RY3Y;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = personal.app.LMSTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LMS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LMS";
-			};
-			name = Release;
-		};
-		986459E82C32962D00E2B590 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = KC2S82RY3Y;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = personal.app.LMSUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = LMS;
-			};
-			name = Debug;
-		};
-		986459E92C32962D00E2B590 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = KC2S82RY3Y;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = personal.app.LMSUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = LMS;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -553,24 +355,6 @@
 			buildConfigurations = (
 				986459E22C32962D00E2B590 /* Debug */,
 				986459E32C32962D00E2B590 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		986459E42C32962D00E2B590 /* Build configuration list for PBXNativeTarget "LMSTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				986459E52C32962D00E2B590 /* Debug */,
-				986459E62C32962D00E2B590 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		986459E72C32962D00E2B590 /* Build configuration list for PBXNativeTarget "LMSUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				986459E82C32962D00E2B590 /* Debug */,
-				986459E92C32962D00E2B590 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
